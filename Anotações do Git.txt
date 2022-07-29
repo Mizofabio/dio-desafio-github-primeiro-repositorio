@@ -22,6 +22,9 @@ cd .git/  -> para ver pasta ocultas.
 git config --list  -> para ver os dados como por exemplo o user.email / user.name
 git config --global user.email "EMAIL QUE VAI UTLIZAR"
 git config --global user.name NOME QUE VAI USAR
+git clone git@github.com:Mizofabio/dio-desafio-github-primeiro-repositorio.git  -> via ssh
+git push origin main  -> para subir para github / servidor.
+git pull origin main  -> para baixar as alterações feitas no github / servidor
 git config --global --unset user.email  -> para apagar o email
 git config --global --unset user.name   -> para apagar o nome
 git status  -> para verificar o status dos arquivo ou diretório modificado que precisa add
