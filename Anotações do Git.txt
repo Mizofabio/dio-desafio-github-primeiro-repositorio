@@ -1,2 +1,16 @@
-Texto para o teste do push 
-o Teste depois que deletei um diretorio
+Como criar chave ssh para gitHub.
+
+ssh-keygen -t ed25519 -C e-mail que usa no github
+*vai mostrar o local onde está a chave publica e local /.ssh
+Você entra na pasta e lê o arquivo id_ed25519.pub com o comando 
+cat id_ed25519.pub -> aqui você copia a chave publica para colar
+no github.
+
+Comando para rodar a chave na maquina local:
+
+na pasta /.ssh
+eval $(ssh-agent -s)
+* o agent pid 1438
+
+aqui você entrega a chave
+ssh-add id_ed25519 *não pode ser a chave publica aqui é a sua.
