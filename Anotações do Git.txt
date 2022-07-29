@@ -14,3 +14,14 @@ eval $(ssh-agent -s)
 
 aqui você entrega a chave
 ssh-add id_ed25519 *não pode ser a chave publica aqui é a sua.
+
+Alguns comandos git:
+
+git init -> cria um repositório dentro de diretório.
+cd .git/  -> para ver pasta ocultas.
+git config --list  -> para ver os dados como por exemplo o user.email / user.name
+git config --global user.email "EMAIL QUE VAI UTLIZAR"
+git config --global user.name NOME QUE VAI USAR
+git config --global --unset user.email  -> para apagar o email
+git config --global --unset user.name   -> para apagar o nome
+git status  -> para verificar o status dos arquivo ou diretório modificado que precisa add
