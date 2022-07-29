@@ -1,1 +1,2 @@
 Texto para o teste do push 
+o Teste depois que deletei um diretorio
